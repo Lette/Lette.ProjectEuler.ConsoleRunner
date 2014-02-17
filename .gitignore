@@ -66,11 +66,11 @@ local.properties
 **/*.dotCover
 
 ## TODO: If you have NuGet Package Restore enabled, uncomment this
-#**/packages/ 
+**/packages/
 
 # NuGet packages
 *.nupkg
-!**/packages/**/*.nupkg
+#!**/packages/**/*.nupkg
 
 # Visual C++ cache files
 ipch/
